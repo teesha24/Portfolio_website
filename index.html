@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Teesha Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-yellow-100 via-yellow-300 to-yellow-500">
+
+  <div class="flex flex-row items-center justify-center min-h-screen px-20 relative">
+    <!-- Left side text content -->
+    <div class="w-1/2 max-w-lg text-left">
+      <h2 class="text-yellow-500 font-extrabold text-xl mb-1 relative inline-block">
+        HI THERE!
+        <span class="absolute bottom-0 left-0 w-10 h-[2px] bg-yellow-500 rounded"></span>
+      </h2>
+      <h1 class="flex items-center text-6xl font-extrabold mb-2">
+        <span class="text-gray-900 mr-2" style="text-shadow: 1px 1px 0 #000000;">I'M</span>
+        <span class="text-yellow-300 font-extrabold tracking-widest select-none" style="text-shadow: 1px 1px 0 #000000;">TEESHA</span>
+      </h1>
+      <p class="text-sm font-semibold uppercase mb-1 px-1 inline-block bg-yellow-400 text-black max-w-max">
+        FRESHER
+      </p>
+      <p class="text-sm font-semibold uppercase mb-3 px-2 inline-block bg-black text-white max-w-max">
+        PURSUING BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY
+      </p>
+      <p class="text-black-400 text-sm mb-8 max-w-md leading-relaxed">
+        I’m a curious and creative person studying Information Technology. I enjoy learning new things, solving problems, and turning ideas into real projects. I like trying out new technologies and always look forward to new challenges.
+      </p>
+      <button onclick="showDialog()" class="bg-black text-white text-sm font-semibold rounded-full px-6 py-2 hover:bg-gray-900 transition mb-6">
+        Click me!
+      </button>
+
+     <!-- FIND WITH ME Section with shadow -->
+    <div class="text-left mt-8 p-4 rounded-lg shadow-lg bg-white">
+      <h2 class="text-lg font-bold text-gray-800 mb-3">FIND WITH ME</h2>
+      <div class="flex space-x-6 text-2xl text-yellow-500">
+        <a href="https://www.linkedin.com/in/teesha-gada-988525285" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/teesha24" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+    </div>
+
+    <!-- Right side image -->
+    <div class="w-1/2 flex justify-center relative mt-0">
+      <div class="relative">
+        <div class="rounded-full border-[6px] border-yellow-400 p-1 w-80 h-80 flex items-center justify-center">
+          <img alt="Teesha" class="rounded-full w-full h-full object-cover" src="teesha.jpeg" />
+        </div>
+      </div>
+    </div>
+
+   <!-- Yellow vertical bars with black borders -->
+    <div class="absolute top-0 left-0 h-full w-12 bg-yellow-400 border-r-2 border-black"></div>
+    <div class="absolute top-0 right-0 h-full w-12 bg-yellow-400 border-l-2 border-black"></div>
+  
+  </div>
+
+  <!-- JS -->
+  <script>
+    function showDialog() {
+      alert("Hello!");
+    }
+  </script>
+</body>
+</html>
